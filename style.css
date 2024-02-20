@@ -1,0 +1,548 @@
+/* INDEX.HTML CSS */
+
+.index-body {
+    background-color: #fdeeee;
+}
+
+.index-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.index-header-h1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 170;
+  font-size: 1.8vw;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.index-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+}
+
+.index-nav-rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 600px;*/
+    height: 33vw;
+    /*width: 200px; */
+    width: 11vw;
+    background-color: black;
+    transition: 800ms;
+}
+
+.index-nav-rectangle:hover {
+    background-color: #fdeeee;
+}
+
+.index-anchor {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 230;
+    font-size: 1.1vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-decoration: none;
+    color: black;
+    transition: 800ms;
+}
+
+.index-anchor:hover {
+    color: black;
+}
+
+.index-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-footer-p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 1vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+/* ABOUT.HTML CSS */
+
+.aboutme-body {
+    background-color: #f5f5f5;
+}
+
+.aboutme-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.aboutme-header-h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin-right: 2rem;
+}
+
+.aboutme-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 5rem;
+}
+
+.aboutme-anchor {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 230;
+    font-size: .9vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-decoration: none;
+    color: black;
+    transition: 800ms;
+}
+
+.aboutme-nav-rectangle-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 9vw;
+    background-color: black;
+    transition: 800ms;
+    margin-left: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.aboutme-nav-rectangle-home:hover {
+    background-color: #f5f5f5;
+}
+
+.aboutme-nav-rectangle-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    width: 11vw;
+    background-color: black;
+    transition: 800ms;
+    margin-right: 10rem;
+    z-index: 2;
+}
+
+.aboutme-nav-rectangle-projects:hover {
+    background-color: #f5f5f5;
+}
+
+.aboutme-nav-rectangle-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 6vw;
+    background-color: black;
+    transition: 800ms;
+    margin-right: 2.5rem;
+    margin-top: 1rem;
+}
+
+.aboutme-nav-rectangle-contact:hover {
+    background-color: #f5f5f5;
+}
+
+.aboutme-main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.aboutme-img {
+    width: 50%;
+    height: 50%;
+}
+
+.aboutme-main-p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-size: 1.4vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin-top: 9rem;
+    margin-left: 2rem;
+}
+
+/* PORTFOLIO.HTML CSS */
+
+.portfolio-body {
+    background-color: #f5f5f5;
+}
+
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-header-h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin-left: 2rem;
+}
+
+.portfolio-header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-nav-rectangle-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 9vw;
+    background-color: black;
+    transition: 800ms;
+    margin-right: 2.5rem;
+}
+
+.portfolio-nav-rectangle-home:hover {
+    background-color: #f5f5f5;
+}
+
+.portfolio-anchor {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 230;
+    font-size: .9vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-decoration: none;
+    color: black;
+    transition: 800ms;
+}
+
+.portfolio-nav-rectangle-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 9vw;
+    background-color: black;
+    transition: 800ms;
+    margin-right: 2.5rem;
+}
+
+.portfolio-nav-rectangle-about:hover {
+    background-color: #f5f5f5;
+}
+
+.portfolio-nav-rectangle-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 9vw;
+    background-color: black;
+    transition: 800ms;
+    margin-right: 2.5rem;
+}
+
+.portfolio-nav-rectangle-contact:hover {
+    background-color: #f5f5f5;
+}
+
+.portfolio-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-main-div-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+.portfolio-main-div-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.portfolio-main-div-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10rem;
+    margin-top: 5rem;
+}
+
+.portfolio-main-h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-size: 2vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.portfolio-main-img {
+
+}
+
+.portfolio-main-p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+/* CONTACT.HTML */
+
+.contact-body {
+    background-color: #f5f5f5;
+}
+
+.contact-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-header-h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin-left: 2rem;
+}
+
+.contact-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-nav-rectangle-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 9vw;
+    background-color: black;
+    transition: 800ms;
+    margin: .5rem;
+}
+
+.contact-nav-rectangle-home:hover {
+    background-color: #f5f5f5;
+}
+
+.contact-nav-anchor {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 230;
+    font-size: .9vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-decoration: none;
+    color: black;
+    transition: 800ms;
+}
+
+.contact-nav-rectangle-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 9vw;
+    background-color: black;
+    transition: 800ms;
+    margin: .5rem;
+}
+
+.contact-nav-rectangle-about:hover {
+    background-color: #f5f5f5;
+}
+
+.contact-nav-rectangle-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 9vw;
+    background-color: black;
+    transition: 800ms;
+    margin: .5rem;
+}
+
+.contact-nav-rectangle-projects:hover {
+    background-color: #f5f5f5;
+}
+
+.contact-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 7rem;
+}
+
+.contact-label {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 230;
+    font-size: .9vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-input {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 230;
+    font-size: .9vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-decoration: none;
+    color: black;
+    transition: 800ms;
+}
+
+.contact-input:hover {
+    background-color: black;
+    color: #f5f5f5;
+}
+
+/*
+
+  SUCCESS.HTML CSS 
+
+.success-body {
+    background-color: #f5f5f5;
+}
+
+.success-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-header-h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 230;
+    font-size: 1vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-decoration: none;
+    color: black;
+}
+
+
+.success-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.success-main-circle {
+    height: 10rem;
+    width: 10rem;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: 700ms;
+    left: 2rem;
+    top: 2rem;
+}
+
+.success-main-circle:hover {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.success-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.success-footer-p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 230;
+    font-size: 1vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-decoration: none;
+    color: black;
+}
+
+.success-footer-rectangle-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 9vw;
+    background-color: black;
+    transition: 800ms;
+}
+
+.success-footer-rectangle-home:hover {
+    background-color: #f5f5f5;
+}
+
+.success-anchor {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 230;
+    font-size: .8vw;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-decoration: none;
+    color: black;
+    transition: 800ms;
+}
+
+*/
